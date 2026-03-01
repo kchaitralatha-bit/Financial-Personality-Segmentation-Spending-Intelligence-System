@@ -1,4 +1,6 @@
 🧠 Financial Personality Segmentation & Spending Intelligence System
+
+
 📌 Abstract
 
 This project presents a data-driven Financial Behavior Analytics System designed to transform raw transactional data into actionable behavioral intelligence. The system integrates SQL-based structured data storage with machine learning techniques including clustering, regression, classification, dimensionality reduction, and time-series analysis.
