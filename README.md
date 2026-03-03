@@ -1,13 +1,13 @@
-🧠 Financial Personality Segmentation & Spending Intelligence System
+ Financial Personality Segmentation & Spending Intelligence System
 
 
-📌 Abstract
+## Abstract
 
 This project presents a data-driven Financial Behavior Analytics System designed to transform raw transactional data into actionable behavioral intelligence. The system integrates SQL-based structured data storage with machine learning techniques including clustering, regression, classification, dimensionality reduction, and time-series analysis.
 
 By combining behavioral feature engineering with predictive modeling, the project simulates a real-world fintech analytics pipeline capable of identifying financial personalities, assessing risk levels, and predicting spending behavior.
 
-🎯 Problem Statement
+## Problem Statement
 
 Modern financial institutions generate large volumes of transaction data but often lack interpretable insights into customer behavior patterns. Understanding financial personalities and spending risk is critical for:
 
@@ -23,7 +23,7 @@ Intelligent financial planning
 
 There is a need for an integrated analytical system that converts financial data into structured intelligence.
 
-🎯 Research Objectives
+##  Research Objectives
 
 The primary objective of this project is to design and implement an end-to-end financial intelligence pipeline that:
 
@@ -45,7 +45,7 @@ Analyzes temporal spending patterns using time-series techniques.
 
 Stores derived behavioral insights back into a structured database.
 
-🛠 Technologies Used
+##  Technologies Used
 
 Python
 
@@ -61,8 +61,8 @@ SQLite (SQL Database)
 
 Jupyter Notebook
 
-🧠 Methodology
-1️⃣ Data Engineering
+#  Methodology
+# 1️) Data Engineering
 
 Synthetic financial transaction dataset generated.
 
@@ -70,7 +70,7 @@ SQLite database created for structured storage.
 
 Data extracted using SQL queries.
 
-2️⃣ Behavioral Feature Engineering
+# 2) Behavioral Feature Engineering
 
 New financial indicators derived:
 
@@ -82,7 +82,7 @@ Risk Score = Weighted function of expense ratio and credit score
 
 These engineered features enhance behavioral interpretability.
 
-3️⃣ Financial Personality Segmentation
+# 3️) Financial Personality Segmentation
 
 Data standardized using StandardScaler.
 
@@ -98,13 +98,13 @@ Stable Planner
 
 Luxury Lifestyle
 
-4️⃣ Cluster Validation
+# 4️) Cluster Validation
 
 Silhouette Score calculated to measure cluster quality.
 
 PCA applied to reduce dimensionality and visualize cluster separability.
 
-5️⃣ Spending Prediction
+# 5️) Spending Prediction
 
 Random Forest Regressor trained.
 
@@ -114,7 +114,7 @@ R² Score
 
 Mean Absolute Error (MAE)
 
-6️⃣ Risk Classification
+# 6️) Risk Classification
 
 Risk levels categorized as:
 
@@ -126,7 +126,7 @@ High
 
 Random Forest Classifier used for prediction.
 
-7️⃣ Time-Series Analysis
+# 7️) Time-Series Analysis
 
 Monthly transaction aggregation performed.
 
@@ -134,7 +134,7 @@ Spending trends visualized over time.
 
 Seasonal and behavioral patterns analyzed.
 
-8️⃣ Intelligence Storage
+# 8️) Intelligence Storage
 
 Derived insights stored back into SQL database.
 
@@ -146,7 +146,7 @@ Personality
 
 Risk_Level
 
-📊 Results & Findings
+# Results & Findings
 
 Successfully segmented users into four meaningful financial behavior groups.
 
@@ -160,7 +160,7 @@ PCA visualization confirmed cluster separability.
 
 Time-series analysis revealed spending variability trends.
 
-🔍 Key Insights
+# Key Insights
 
 High expense ratio combined with low credit score strongly correlates with financial risk.
 
@@ -172,7 +172,7 @@ Behavioral feature engineering significantly improves model interpretability.
 
 Transaction data can be transformed into structured decision-support intelligence.
 
-📈 System Architecture
+# System Architecture
 
 Data Generation →
 
@@ -192,12 +192,13 @@ Time-Series Analysis →
 
 Insight Storage
 
-🧪 Evaluation Metrics
+#  Evaluation Metrics
 Model Type	Algorithm Used	Evaluation Metric
 Clustering	K-Means	Silhouette Score
 Regression	Random Forest Regressor	R², MAE
 Classification	Random Forest Classifier	Accuracy
-🚀 Future Enhancements
+
+# Future Enhancements
 
 Integration with real-world banking datasets
 
@@ -211,7 +212,7 @@ Hyperparameter tuning optimization
 
 Credit default probability modeling
 
-🎓 Academic Contribution
+# Academic Contribution
 
 This project demonstrates how financial transaction data can be transformed into behavioral intelligence using a hybrid approach combining:
 
@@ -229,7 +230,7 @@ Database Integration
 
 It reflects a research-oriented analytical pipeline aligned with modern fintech analytics systems.
 
-📌 Conclusion
+# Conclusion
 
 The Financial Personality Segmentation & Spending Intelligence System successfully integrates database management with machine learning techniques to produce interpretable and actionable financial insights.
 
